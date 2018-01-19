@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700");
+body {
+  background: #f5f5f5;
+  font-family: 'Monserrat', sans-serif; }
+  body h1 {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #5a5a5a; }
+  body ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    flex-basis: 80%; }
+    body ul li {
+      flex-basis: 20%;
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 20px;
+      align-items: center;
+      padding: 0.8em; }
+      body ul li span {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+        font-size: 14px;
+        text-align: center;
+        width: 100%; }
+      body ul li img, body ul li div, body ul li span {
+        width: 250px; }
+      body ul li img {
+        border-radius: 3px;
+        box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); }
+      body ul li:hover img + #genere {
+        display: block;
+        color: steelblue; }
+      body ul li:hover img + #dater {
+        color: tomato; }
+      body ul li #genere {
+        text-align: center; }
+
+/*# sourceMappingURL=estilos.css.map */
